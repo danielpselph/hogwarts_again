@@ -5,5 +5,7 @@ Rails.application.routes.draw do
 
   #professors
   get '/professors', to: 'professors#index'
+
+  #professor_students
   get '/professors/:id', to: 'professors#show'
 end

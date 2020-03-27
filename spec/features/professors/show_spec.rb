@@ -7,11 +7,11 @@ RSpec.describe "professor show page" do
             snape = Professor.create(name: "Severus Snape", age: 45, specialty: "Potions")
             harry = Student.create(name: "Harry Potter" , age: 11 , house: "Gryffindor" )
             longbottom = Student.create(name: "Neville Longbottom" , age: 11 , house: "Gryffindor" )
-            student1 = ProfessorStudent.create(student_id: harry, professor_id: snape)
-            student2 = ProfessorStudent.create(student_id: longbottom, professor_id: snape)
+            student1 = ProfessorStudent.create(student_id: harry.id, professor_id: snape.id)
+            student2 = ProfessorStudent.create(student_id: longbottom.id, professor_id: snape.id)
 
+            # binding.pry
             visit "/professors/:id"
-
             expect(page).to have_content(snape.name) 
             expect(page).to have_content(student1.name) 
             expect(page).to have_content(student2.name) 
