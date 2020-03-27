@@ -5,7 +5,8 @@ class ProfessorsController < ApplicationController
     end
 
     def show
-        
+        # binding.pry
+        @professor = Professor.find(params[:id])
         
     end
     

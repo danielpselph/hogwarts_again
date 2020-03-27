@@ -12,6 +12,7 @@ RSpec.describe "professor show page" do
 
             # binding.pry
             visit "/professors/:id"
+
             expect(page).to have_content(snape.name) 
             expect(page).to have_content(student1.name) 
             expect(page).to have_content(student2.name) 
