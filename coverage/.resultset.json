@@ -211,12 +211,47 @@
           null,
           null,
           1,
+          1,
           null
         ]
       },
       "/Users/danielselph/turing/projects/hogwarts_again/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/danielselph/turing/projects/hogwarts_again/spec/features/professors/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -312,6 +347,13 @@
           1,
           null,
           null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -323,6 +365,6 @@
         ]
       }
     },
-    "timestamp": 1585323008
+    "timestamp": 1585324064
   }
 }
