@@ -1,7 +1,7 @@
 class ProfessorsController < ApplicationController
 
     def index
-        @professor = Professor.all
+        @professors = Professor.all
     end
     
 end
